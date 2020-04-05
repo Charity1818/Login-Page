@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url("images.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: Arial;
+}
+.login{
+    width: 250px;
+    margin: auto;
+    padding: 70px 30px;
+    height: 280px;
+    margin-top: 50px;
+    color: rgba(57, 23, 68, 0.5);
+    border-radius: 10px;
+    box-shadow: rgba(201, 199, 202, 0.5);
+    box-sizing: absolute;
+    background: white;
+    top: 50%;
+    bottom: 50%;
+}
+h2{
+    color: black;
+    font-weight: bold;
+    margin-top: 30px;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial;
+}
+p{
+    font-family: Arial;
+    font-weight: lighter;
+    padding: 30 40px;
+    font-size: 16px;
+   
+}
+input{
+    width: 100%;
+    margin-bottom: 15px;
+}    
+}
+.loginbox input{
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    color: rgba(28, 5, 36, 0.5);   
+}
+input[type="text"], input[type="password"]
+{
+    border: none;
+    outline: none;
+    background: rgba(232, 224, 235, 0.5);;
+    color: white;
+    font-size: 16px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;   
+}
+::placeholder{
+    color: rgba(160, 111, 177, 0.5);
+    text-align: left;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    font-family: Arial;
+    font-weight: lighter;
+    margin: 10px;
+    padding: 10px;
+}
+input[type=submit]{
+    border: none;
+    outline: none;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: Arial;
+    background: rgb(79, 13, 141);
+    cursor: pointer;
+    border-radius: 20px;
+}
+a{
+    color: rgba(57, 23, 68, 0.5);
+    font-size: 14px;
+    text-decoration: none;
+    margin: 60px;
+}
