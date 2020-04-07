@@ -19,6 +19,18 @@ body{
     top: 50%;
     bottom: 50%;
 }
+ .image{
+    height: 4rem;
+    width: 4rem; 
+    position: absolute;
+    border-radius: 50%;
+    top: -50px;
+    left: calc(50% - 50px);
+    margin-top: 301px;
+    margin-left: 21px;
+
+
+}
 h2{
     color: black;
     font-weight: bold;
